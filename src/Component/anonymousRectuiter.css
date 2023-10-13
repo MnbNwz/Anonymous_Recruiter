@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@600&display=swap");
+@import url("http://fonts.cdnfonts.com/css/radio-newsman");
+
+.gifVideo {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.custom-container {
+  padding: 0 15px;
+  max-width: 903px !important;
+  width: 100%;
+}
+
+.title {
+  visibility: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Radio Newsman", sans-serif;
+  font-size: 58px;
+  color: black;
+  position: relative;
+  padding-right: 10px;
+  margin-bottom: 100px;
+}
+.heading-div {
+  max-width: 450px;
+  margin: auto;
+}
+.heading {
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Trispace", sans-serif;
+  font-size: 40px;
+  color: black;
+  position: relative;
+  margin: 0;
+}
+
+.border {
+  border-bottom: solid 3px black;
+  position: absolute;
+  right: -7px;
+  width: 20px;
+  bottom: 0;
+}
+.border1 {
+  border-bottom: solid 3px black;
+  position: absolute;
+  width: 15px;
+  bottom: 0;
+}
+
+/* Animation */
+/* .title {
+  animation: animated-text 2s steps(30, end.recruiter {
+
+}) 0s 1 normal both;
+} */
+.heading {
+  animation: animated-text1 2s steps(30, end) 0s 1 normal both;
+}
+.secondTitle {
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  padding-right: 20px;
+}
+.secondTitle1 {
+  /* animation: animated-text 2s steps(30, end) 0s 1 normal both; */
+}
+.backText1 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.backText11 {
+  animation: animated-text1 2s steps(30, end) 0s 1 normal both;
+}
+.backText2 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.backText22 {
+  animation: animated-text1 2s steps(30, end) 2s 1 normal both;
+  -webkit-animation: animated-text1 2s steps(30, end) 2s 1 normal both;
+}
+.backText3 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.backText33 {
+  animation: animated-text1 2s steps(30, end) 4s 1 normal both;
+  -webkit-animation: animated-text1 2s steps(30, end) 4s 1 normal both;
+}
+.backText4 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.backText44 {
+  animation: animated-text1 2s steps(30, end) 2s 1 normal both;
+  -webkit-animation: animated-text1 2s steps(30, end) 6s 1 normal both;
+}
+.border,
+.border1 {
+  animation: animated-cursor 600ms steps(30, end) infinite;
+}
+/* .type {
+  color: #0000;
+  background: linear-gradient(-90deg, #00dffc 5px, #0000 0) 10px 0,
+    linear-gradient(#00dffc 0 0) 0 0;
+  background-size: calc(var(--n) * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: b 0.7s infinite steps(1),
+    t calc(var(--n) * 0.3s) steps(var(--n)) forwards;
+}
+
+@keyframes t {
+  from {
+    background-size: 0 200%;
+  }
+}
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0;
+  }
+} */
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes animated-text1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+  from {
+    border-bottom-color: black;
+  }
+  to {
+    border-bottom-color: transparent;
+  }
+}
+
+.selectionDiv {
+  border: 1px solid #000;
+  border-bottom: 5px solid #000;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 80px 0;
+}
+
+.secondTitle {
+  font-size: 40px;
+  margin-bottom: 55px;
+  font-family: "Radio Newsman", sans-serif;
+}
+.secondDiv {
+  display: flex;
+}
+.backButton {
+  height: 42px;
+  width: 42px;
+}
+.backText {
+  font-size: 38px;
+  font-weight: 600;
+  text-align: left;
+  position: relative;
+}
+.backText5 {
+  font-weight: 400;
+}
+.container {
+  border: 1px solid #000;
+  border-bottom: 5px solid #000;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+.backDiv {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.back {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.btn1 {
+  background-color: black;
+  color: white;
+  padding: 18px 99px;
+  border-radius: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  padding: 18px 99px;
+  border-radius: 40px;
+  font-size: 20px;
+}
+.footer1 {
+  font-family: "Trispace", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  position: absolute;
+  padding-bottom: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.container > div h3:last-child {
+  margin-top: 40px;
+}
+@media screen and (max-width: 2560px) {
+  .background {
+    background-image: url("../assets/homepage7.jpg");
+  }
+}
+@media screen and (min-width: 1776px) {
+  .background {
+    background-image: url("../assets/homepage2.jpg");
+  }
+}
+@media screen and (max-width: 1775px) {
+  .background {
+    background-image: url("../assets/homepage6.jpg");
+  }
+}
+@media screen and (max-width: 1024px) {
+  .background {
+    background-image: url("../assets/homepage5.jpg");
+  }
+}
+@media screen and (max-width: 991px) {
+  h2.title,
+  .heading {
+    font-size: 40px;
+  }
+  /* .container,
+  .selectionDiv {
+    max-width: 598px;
+  } */
+  .backText {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .custom-container {
+    padding: 0 15px;
+    max-width: 903px !important;
+    width: 100%;
+  }
+  .gifVideo img {
+    width: 100%;
+  }
+  .title {
+    margin-bottom: 75px;
+  }
+  h2.title,
+  .heading {
+    font-size: 18px;
+  }
+  .btn1,
+  .btn2 {
+    padding: 6px 25px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .selectionDiv {
+    padding: 20px;
+  }
+  .secondTitle {
+    font-size: 18px;
+    margin-bottom: 55px;
+  }
+  .backButton {
+    height: 25px;
+    width: 25px;
+  }
+  .back {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .backText {
+    font-size: 13px;
+  }
+}
